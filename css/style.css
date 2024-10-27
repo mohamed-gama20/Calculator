@@ -18,6 +18,7 @@ input[type=text]{
     border-radius: 5px;
     padding: 10px;
     box-shadow: 5px 10px 8px 3px rgba(0, 0, 0, 0.2);
+    text-wrap:wrap  !important;
 
  }
 input[type=text]:focus{
@@ -31,14 +32,27 @@ input[type=button]{
     border-radius: 10px;
     height: 28px;
     box-shadow: 5px 10px 8px 3px rgba(0, 0, 0, 0.1);
-  
     text-align: center;
-    
+    width: fit-content;
+    height: 40px;
 }
 
 input[type=button]:hover{
     margin-left: 3px;
    
     transition: .3s all linear;
+}
+
+.made{
+    margin-top: 100px;
+    text-align: center;
+    font-size: larger;
+    color:#505ac7;
+    font-weight: bold;
+}
+
+img{
+    width:22px;
+    height: 22px;
 }
 
