@@ -39,8 +39,9 @@ input[type=button]{
 
 input[type=button]:hover{
     margin-left: 3px;
-   
     transition: .3s all linear;
+    font-weight: bold;
+    font-size: larger;
 }
 
 .made{
@@ -49,6 +50,16 @@ input[type=button]:hover{
     font-size: larger;
     color:#505ac7;
     font-weight: bold;
+    display: block;
+    text-decoration: none;
+}
+
+.made:hover{
+    transition: .3s all ease-in-out;
+    margin-bottom: 4px;
+    letter-spacing: .5px;
+    cursor: pointer;
+    color:#505ac7;
 }
 
 img{
