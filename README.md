@@ -1,10 +1,8 @@
 # Calculator
-Calculator app using Jquery, css, and html.
+Calculator app using Jquery, css, bootstrap, and html.
 
 ##########################################################################
 
-This calculator app add or subtract two numbers only at a time.
+This calculator app add or subtract any number of numbers.
 
-Do not start the operation with any symbol (+ or -), but start with a number.
-
-The operation should be like this (1+2).
+You should not write operation like this (7++3), it will not work.
