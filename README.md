@@ -1,5 +1,6 @@
 # Calculator
 Calculator app using Jquery, css, bootstrap, and html.
+it is not completely responsive.
 
 ##########################################################################
 
